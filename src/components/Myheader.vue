@@ -1,10 +1,12 @@
 <template>
-  
+  <header>
+
+  </header>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld'
+  name: 'Myheader'
   
 }
 </script>
