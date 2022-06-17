@@ -18,7 +18,7 @@ export default {
   name: 'App',
   components: {
     MyHeader,
-    MyFooter
+    MyFooter,
   }
 }
 </script>
@@ -29,8 +29,6 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-
-#app {
-
-}
+// importazione bootstrap
+@import'~bootstrap/dist/css/bootstrap.css'
 </style>
