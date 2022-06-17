@@ -31,7 +31,7 @@
           
         </div>
         
-        <div class="col-12 header-height ">
+        <div class="col-12 header-height">
           <div class="container">
             <div class="row">
               <div class="col-3">
@@ -107,7 +107,7 @@ export default {
     background-color: #ffab0b;
   }
   .header-height{
-    height: 150px;
+    height: 100px;
     nav ul li {
     list-style: none;
       a{
