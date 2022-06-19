@@ -31,16 +31,16 @@
           
         </div>
         
-        <div class="col-12 header-height">
-          <div class="container">
-            <div class="row">
-              <div class="col-3">
+        <div class="col-12  header-height">
+          <div class="container d-flex h-100">
+            <div class="row justify-content-between align-self-center">
+              <div class="col-2">
                 <img src="../assets/university_logo.png" alt="">
               </div>
-              <nav class="col-9 align-self-center">
-                <ul class="row justify-content-between">
+              <nav class="col-9 ms-5 align-self-center">
+                <ul class="row justify-content-end">
                   <li v-for="(item,i) in linkHeader"
-                  class="col-1 text-center"
+                  class="col-1  text-center"
                   :key="i">
                     <a href="item.link"><strong>{{item.select}}</strong></a>
                   </li>
