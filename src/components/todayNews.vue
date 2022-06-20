@@ -6,6 +6,7 @@
             <img src="../assets/page-logo-1.png" alt="">
         </div>
         <div class="col-12 text-center">
+            <font-awesome-icon icon="fa-solid fa-user-secret" />
             <h2>Today’s Univeristy News</h2>
         </div>
         <div class="col-12 text-center">

@@ -35,5 +35,5 @@ export default {
   box-sizing: border-box;
 }
 // importazione bootstrap
-@import'~bootstrap/dist/css/bootstrap.css'
+
 </style>

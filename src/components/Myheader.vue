@@ -10,17 +10,28 @@
             <div class="col-5">
               <div class="row">
                 <div class="col-3">
+                  <font-awesome-icon icon="fas fa-phone" />
                   <span>180009933489</span>
                 </div>
-                <div class="col-3 text-center">Contact Us</div>
-                <div class="col-3 text-center">Alunni</div>
-                <div class="col-3 text-center">Campus</div>
+                <div class="col-3 text-center">
+                  <font-awesome-icon icon="fa-solid fa-envelope" />
+                  <span>Contact Us</span></div>
+                <div class="col-3 text-center">
+                  <font-awesome-icon icon="fa-solid fa-graduation-cap" />
+                  <span>Alunni</span>
+                  </div>
+                <div class="col-3 text-center">
+                  <font-awesome-icon icon="fa-solid fa-building-columns" />
+                  <span>Campus</span> 
+                </div>
               </div>
             </div>
             <div class="col-2">
               <!-- icone social da mettere dopo con font awesome -->
               <div class="row">
-                <div class="col-3 text-center">fb</div>
+                <div class="col-3 text-center">
+                  <font-awesome-icon icon="fa-brands fa-facebook" />
+                </div>
                 <div class="col-3 text-center">insta</div>
                 <div class="col-3 text-center">twitter</div>
                 <div class="col-3 text-center">pinterest</div>
