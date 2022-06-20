@@ -1,44 +1,84 @@
 <template>
-  <section class="container mt-5">
+    <div>
+        <myVideo/>
 
-    <div class="row justify-content-center">
-        <div class="col-12 text-center">
-            <img src="../assets/page-logo-1.png" alt="">
-        </div>
-        <div class="col-12 text-center">
-            <h2>Inspired By Excellence & Innovation</h2>
-        </div>
-        <div class="col-12 text-secondary text-center">
-            <span>We offer a wide range of high quality of teaching and extra-curricular activities.</span>
-        </div>
-        <div id="border" class="col-2"></div>
-        <div class="col-12 mt-4">
-            <div class="row justify-content-around align-items-center">
-                <div class="col-7">
-                    <h2>WHY CHOOSE AVADA UNIVERSITY?</h2>
-                    <p class="text-secondary">We offer a range of training packages in a range of subject areas and can offer blended learning opportunities to best meet your needs. If sitting in a room with a trainer and having the opportunity for discussion with other learners sounds good to you then we can offer this. If you prefer to study in your own time and at your own speed then one of our world class facilities.</p>
-                    <p class="text-secondary">If you prefer to study in your own time and at your own speed then one of our e-learning packages may be right up your street. There is a third option, which is you like the sound of both but perhaps can’t attend all training sessions, this is when blended learning comes into its own.</p>
+        <section class="container-fluid py-5 background-grey border-radius align-items-center">
+            <div class="row">
+                <div class="container justify-content-between">
+                    <div class="row">
+                        <div class="col-6">
+                        <h2>WORLD CLASS FACILITIES</h2>
+                        <p class="my-4 fs-5 text-secondary">Avada University is devoted to excellence in teaching, learning, and research, and developing leaders in many disciplines who make a difference globally.</p>
+                        <ul>
+                            <li><strong class="fs-5">International focus</strong><span class="text-secondary fs-5"> – our students come from across the globe</span></li>
+                            <li><strong class="fs-5">Residential courses</strong><span class="text-secondary fs-5"> – we encourage learning and growth</span></li>
+                            <li><strong class="fs-5">People not profits</strong><span class="text-secondary fs-5"> – education is a right not a privilege</span></li>
+                        </ul>
+                        <p class="mt-4 fs-5 text-secondary">If you prefer to study in your own time and at your own speed then one of our e-learning packages may be right up your street.</p>
+                    </div>
+                    <div class="col-6">
+                        
+                        <ul>
+                            <li>
+                                <h2>OUR VALUES</h2>
+                            </li>
+                            <li class="our-list">
+                                <a href="#"> + OUR MISSION</a>                          
+                            </li>
+                            <li class="our-list">
+                                <a href="#"> + OUR PHILOSOPHY</a>                          
+                            </li>
+                            <li class="our-list">
+                                <a href="#"> + OUR OUR COMMITENT</a>                          
+                            </li>
+                            <li class="our-list">
+                                <a href="#"> + OUR PROMISE</a>                          
+                            </li>
+                            <li class="our-list">
+                                <a href="#"> + OUR VALUES</a>                          
+                            </li>
+                        </ul>
+                    </div>
+
+                    </div>
+                    
                 </div>
-                <div class="col-4">
-                    <button type="button" class="ltv-playbtn"></button>
-                    <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://player.vimeo.com/video/80567526?autoplay=1" width="640" height="360" frameborder="0"></iframe>
-                </div>
-            </div>
-        </div>
+                
+
+            </div>            
+                
+        </section>
+
+    <myCarousel/>
     </div>
+    
+    
+  
 
-  </section>
+  
+
+  
 </template>
 
 <script>
+import myVideo from "./myVideo.vue";
+import myCarousel from "./myCarousel.vue";
+
 export default {
-  name: 'myMainContent'
+  name: 'myMainContent',
+  components : {
+    myCarousel,
+    myVideo
+  }
   
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+   
+
     h2{
         font-size: 40px;
     }
@@ -46,11 +86,23 @@ export default {
         font-size: 16px;
     }
 
-
-    #border{
-        margin-top: 20px;
-        border: 1px solid orange;
+    .background-grey{
+        background-color: lightgrey;
     }
 
+    li{
+        list-style: none;
+    }
+    .our-list{
+        
+        background-color: white;
+        margin-bottom: 10px;
+        padding: 10px;
+        a{
+            text-decoration: none;
+            color: orange;
+            font-size: 24px;
+        }
+    }
 
 </style>
