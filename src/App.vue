@@ -23,7 +23,7 @@ export default {
     MyHeader,
     MyFooter,
     myJumbotron,
-    myMainContent
+    myMainContent,
   }
 }
 </script>
