@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid">
-        <section class="container bg-white my-5">
+  
+        <section class="container my-5">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
                     <img src="../assets/page-logo-1.png" alt="">
@@ -21,13 +21,13 @@
                         </div>
                         <div class="col-4">
                             <button type="button" class="ltv-playbtn"></button>
-                            <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://player.vimeo.com/video/80567526?autoplay=1" width="640" height="360" frameborder="0"></iframe>
+                            <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://player.vimeo.com/video/80567526?autoplay=1" width="100%" height="360" frameborder="0"></iframe>
                         </div>
                     </div>
                 </div>
             </div>
         </section>    
-    </div>
+
 </template>
 
 <script>

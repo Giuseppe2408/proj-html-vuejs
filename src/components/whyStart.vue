@@ -1,8 +1,7 @@
 <template>
     <section class="container-fluid py-5 background-grey border-radius align-items-center">
-        <div class="row">
-            <div class="container justify-content-between">
-                <div class="row">
+        <div class="container">
+            <div class="row justify-content-between">             
                     <div class="col-6">
                         <h2>WORLD CLASS FACILITIES</h2>
                         <p class="my-4 fs-5 text-secondary">Avada University is devoted to excellence in teaching, learning, and research, and developing leaders in many disciplines who make a difference globally.</p>
@@ -34,8 +33,7 @@
                                 <a href="#"> + OUR VALUES</a>                          
                             </li>
                         </ul>
-                    </div>
-                </div>                    
+                    </div>                  
             </div>
         </div>            
                 
