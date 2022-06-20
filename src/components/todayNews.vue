@@ -15,26 +15,50 @@
         <!-- parte img -->
         <div class="col-12">
             <div class="row justify-content-center">
-                <div class="col-3">
-                    <img src="../assets/news_single_post_header_1.jpg" alt="">
-                    <div class="bg-white row justify-content-between">
-                        <div class="col-12">
-                            <h2>What do successful grads think you should study?</h2>
+                <div class="col-4">
+                    <img class="text-center" src="../assets/news_single_post_header_1.jpg" alt="">
+                    <div class="description">
+                        <div>
+                            <h2 class="txt-orange">What do successful grads think you should study?</h2>
                         </div>
-                        <div class="col-12">
-                            <span>By <span>admin</span>|March 16th, 2016</span>
+                        <div>
+                            <span>By <span class="txt-orange">admin</span>|March 16th, 2016</span>
                         </div>
-                        <div class="col-4">
-                            <span>Read More</span>
-                        </div>
-                        <div class="col-1"><span>0</span></div>
+                        <div class="read-more">
+                            <span class="txt-orange">Read More</span>
+                            <span class="txt-orange">0</span>
+                        </div> 
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <img src="../assets/news_single_post_header_2.jpg" alt="">
+                    <div class="description">
+                        <div>
+                            <h2 class="txt-orange">What do successful grads think you should study?</h2>
+                        </div>
+                        <div>
+                            <span>By <span class="txt-orange">admin</span>|March 16th, 2016</span>
+                        </div>
+                        <div class="read-more">
+                            <span class="txt-orange">Read More</span>
+                            <span class="txt-orange">0</span>
+                        </div>                   
+                    </div>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <img src="../assets/news_single_post_header_3.jpg" alt="">
+                    <div class="description">
+                        <div>
+                            <h2 class="txt-orange">What do successful grads think you should study?</h2>
+                        </div>
+                        <div>
+                            <span>By <span class="txt-orange">admin</span>|March 16th, 2016</span>
+                        </div>
+                        <div class="read-more">
+                            <span class="txt-orange">Read More</span>
+                            <span class="txt-orange">0</span>
+                        </div>                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,6 +82,19 @@ export default {
         img{
         max-width: 100%;
         object-fit: contain;
-    }
+        }
+        .description{
+            max-width: 100%;
+            background-color: white;
+            padding: 20px;
+            .txt-orange{
+                color: #ffab0b;
+            }
+            .read-more{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    
     }
 </style>

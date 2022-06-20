@@ -30,28 +30,34 @@
           </div>
           
         </div>
-        
+      </div>    
+
+      <div class="row">
         <div class="col-12  header-height">
           <div class="container d-flex h-100">
             <div class="row justify-content-between align-self-center">
-              <div class="col-2">
+              <div class="col-3">
                 <img src="../assets/university_logo.png" alt="">
               </div>
-              <nav class="col-9 ms-5 align-self-center">
-                <ul class="row justify-content-end">
-                  <li v-for="(item,i) in linkHeader"
-                  class="col-1  text-center"
-                  :key="i">
-                    <a href="item.link"><strong>{{item.select}}</strong></a>
-                  </li>
-                </ul>
+              <nav class="col-9 align-self-center">
+                <div class="row">
+                  <ul class="col-12 d-flex">
+                    <li v-for="(item,i) in linkHeader"
+                    class="text-center ms-5"
+                    :key="i">
+                      <a href="item.link"><strong>{{item.select}}</strong></a>
+                    </li>
+                  </ul>
+                </div>
+                  
               </nav>
             </div>
-          </div>
-            
+          </div>          
         </div>
-
       </div>
+        
+
+      
     </div>
   </header>
 </template>
