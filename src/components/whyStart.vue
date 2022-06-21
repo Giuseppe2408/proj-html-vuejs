@@ -8,20 +8,20 @@
                         <ul>
                             <li>
                                 <strong class="fs-5">
-                                    <font-awesome-icon icon="fa-solid fa-globe" /> International focus
+                                    <font-awesome-icon class="icon-color" icon="fa-solid fa-globe" /> International focus
                                 </strong>
                                 <span class="text-secondary fs-5"> – our students come from across the globe</span>
                             
                             </li>
                             <li>
                                 <strong class="fs-5">
-                                    <font-awesome-icon icon="fa-solid fa-graduation-cap" /> Residential courses
+                                    <font-awesome-icon class="icon-color" icon="fa-solid fa-graduation-cap" /> Residential courses
                                 </strong>
                                 <span class="text-secondary fs-5"> – we encourage learning and growth</span>                            
                             </li>
                             <li>
                                 <strong class="fs-5">
-                                    <font-awesome-icon icon="fa-solid fa-address-book" /> People not profits
+                                    <font-awesome-icon class="icon-color" icon="fa-solid fa-address-book" /> People not profits
                                 </strong>
                                 <span class="text-secondary fs-5"> – education is a right not a privilege</span>
                             </li>
@@ -65,6 +65,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+    .icon-color{
+            color: #ef993e;
+    }
     li{
         list-style: none;
     }
@@ -73,6 +76,7 @@ export default {
         background-color: white;
         margin-bottom: 10px;
         padding: 10px;
+        
         a{
             text-decoration: none;
             color: orange;

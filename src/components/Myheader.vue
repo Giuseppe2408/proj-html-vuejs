@@ -2,7 +2,7 @@
   <header>
     <div class="container-fluid">
       
-      <div class="row">        
+      <div class="row align-items-center">        
         <!-- header parte sopra -->
         <div class="col-12 contact">
           <div class="container">
@@ -30,16 +30,16 @@
               <!-- icone social da mettere dopo con font awesome -->
               <div class="row">
                 <div class="col-3 text-center">
-                  <img src="../assets/facebook-f-brands.svg" alt="">
+                  <font-awesome-icon icon="fa-brands fa-facebook-f" />
                 </div>
                 <div class="col-3 text-center">
-                  <img src="../assets/twitter-brands.svg" alt="">
+                 <font-awesome-icon icon="fa-brands fa-twitter" />
                 </div>
                 <div class="col-3 text-center">
-                  <img src="../assets/instagram-brands.svg" alt="">
+                  <font-awesome-icon icon="fa-brands fa-youtube" />
                 </div>
                 <div class="col-3 text-center">
-                  <img src="../assets/youtube-brands.svg" alt="">
+                  <font-awesome-icon icon="fa-brands fa-instagram" />
                 </div>
               </div>
             </div>
@@ -132,8 +132,8 @@ export default {
     color: white;
     img{
       object-fit: contain;
-      max-width: 40px;
-      max-height: 40px;
+      max-width: 60px;
+      max-height: 60px;
       color: white;
     }
   }

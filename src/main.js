@@ -15,8 +15,16 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { faBuildingColumns } from '@fortawesome/free-solid-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
+import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import { faClock } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+
+
 /* add icons to the library */
-library.add(faUserSecret, faPhone, faEnvelope, faGraduationCap, faBuildingColumns, faGlobe, faAddressBook)
+library.add(faUserSecret, faPhone, faEnvelope, faGraduationCap, faBuildingColumns, faGlobe, faAddressBook, faHouse, faClock, faFacebookF, faTwitter, faYoutube, faInstagram)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)

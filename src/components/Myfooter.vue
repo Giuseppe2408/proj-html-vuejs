@@ -1,5 +1,5 @@
 <template>
-  <footer id="img-footer" class="py-5 container-fluid">                     
+  <footer class="py-5 container-fluid">                     
     <myFooterList
     :linkFooter="linkFooter"
     :key="i"/>
@@ -19,19 +19,19 @@ export default {
         {
           subtitle : 'AVADA UNIVERSITY',
           contact : 'Residential Location 9521 Broadsberry Avenue Paddington RC7 9ZA', 
-          icon : ''
+          icon : '<font-awesome-icon icon="fa-solid fa-house"/>'
         },
         {
           contact : '1.800.458.556',
-          icon : ''
+          icon : '<font-awesome-icon icon="fas fa-phone"/>'
         },
         {
           contact : 'info@your-domain.com',
-          icon : ''
+          icon : '<font-awesome-icon icon="fa-solid fa-envelope"/>'
         },
         {
           contact : 'Monday – Friday: 8:00 AM – 10:00 PM',
-          icon : ''
+          icon : '<font-awesome-icon icon="fa-solid fa-clock"/>'
         },
         {
           domandsubtitle : 'RECENT POSTS',
@@ -105,7 +105,21 @@ export default {
         {
           link2 : 'Careers'
         },
-
+        {
+          calendario : 'calendario',
+          eventsTitle : 'Upcoming Events',
+          text : 'Buisness Seminair',
+          dataevent : 'July-1 2019',
+          location : 'united states',
+          num : '27'
+        },
+        {
+          calendario : 'calendario',
+          text : 'Politics Seminair',
+          dataevent : 'November-6 2019',
+          location : 'united Kingdom',
+          num : '27'
+        },
 
       ]
     }
@@ -116,9 +130,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  #img-footer{
+  footer{
     background-image: url(../assets/university_ft_bg.png );
-    
-  
+    line-height: 40px;
   }
 </style>
