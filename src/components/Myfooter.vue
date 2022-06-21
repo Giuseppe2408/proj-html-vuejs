@@ -1,5 +1,5 @@
 <template>
-  <footer id="img-footer" class="container-fluid">                     
+  <footer id="img-footer" class="py-5 container-fluid">                     
     <myFooterList
     :linkFooter="linkFooter"
     :key="i"/>
@@ -17,94 +17,93 @@ export default {
     return{
       linkFooter : [
         {
-          class : 'col-2',
           subtitle : 'AVADA UNIVERSITY',
-          text : 'Residential Location 9521 Broadsberry Avenue Paddington RC7 9ZA', 
+          contact : 'Residential Location 9521 Broadsberry Avenue Paddington RC7 9ZA', 
           icon : ''
         },
         {
-          text : '1.800.458.556',
+          contact : '1.800.458.556',
           icon : ''
         },
         {
-          text : 'info@your-domain.com',
+          contact : 'info@your-domain.com',
           icon : ''
         },
         {
-          text : 'Monday – Friday: 8:00 AM – 10:00 PM',
+          contact : 'Monday – Friday: 8:00 AM – 10:00 PM',
           icon : ''
         },
         {
-          class : 'col-2',
-          subtitle : 'RECENT POSTS',
-          text : 'What do successful grads think you should study?',
+          domandsubtitle : 'RECENT POSTS',
+          domand : 'What do successful grads think you should study?',
+          date : 'March 12/03/2019',
           icon : ''
         },
         { 
-          text : 'Former student discusses success in the fashion industry',
+          domand : 'Former student discusses success in the fashion industry',
+          date : 'August 17/08/2019',
           icon : ''
         },
         {          
-          text : 'How do you best prepare for university?',
+          domand : 'How do you best prepare for university?',
+          date : 'May 25/05/2020',
           icon : ''
         },
         {
-          class : 'col-2',
-          subtitle : 'Courses',
-          text : 'Arts & Humanities'
+          linkTitle : 'Courses',
+          link1 : 'Arts & Humanities'
         },
         {
-          text : 'Buisness & Management'
+          link1 : 'Buisness & Management'
         },
         {
-          text : 'Engineering & Technology'
+          link1 : 'Engineering & Technology'
         },
         {
-          text : 'Life Science & Medicine'
+          link1 : 'Life Science & Medicine'
         },
         {
-          text : 'Natural Scienses'
+          link1 : 'Natural Scienses'
         },
         {
-          subtitle: 'ADMISSION',
-          text : 'Elegibility'
+          linkTitle: 'ADMISSION',
+          link1 : 'Elegibility'
         },
         {
-          text : 'Application'
+          link1 : 'Application'
         },
         {
-          text : 'Review Process'
+          link1 : 'Review Process'
         },
         {
-          text : 'How to Apply'
+          link1 : 'How to Apply'
         },
         {
-          class : 'col-2',
-          subtitle: 'RESOURCES',
-          text : 'Campus Directory'
+          linkTitle1: 'RESOURCES',
+          link2 : 'Campus Directory'
         },
         {
-          text : 'Academic Calendar'
+          link2 : 'Academic Calendar'
         },
         {
-          text : 'Sports Club'
+          link2 : 'Sports Club'
         },
         {
-          text : 'Graduate Programs'
+          link2 : 'Graduate Programs'
         },
         {
-          text : 'Faculty & Staff'
+          link2 : 'Faculty & Staff'
         },
         {
 
-          subtitle: 'QUICKLINKS',
-          text : 'University Library'
+          linkTitle1: 'QUICKLINKS',
+          link2 : 'University Library'
         },
         {
-          text : 'Campus Service'
+          link2 : 'Campus Service'
         },
         {
-          text : 'Careers'
+          link2 : 'Careers'
         },
 
 

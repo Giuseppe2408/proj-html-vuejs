@@ -1,16 +1,10 @@
 <template>
-    <div class="col-2">
-        <ul>
-
-          <li>
-            <h2>{{footerBlock.subtitle}}</h2>
-            <a href="">
-              <span>{{footerBlock.text}}</span>
-            </a>
-          </li>
-          
-        </ul>
-    </div>    
+  
+    
+  
+    
+      
+      
     
 </template>
 
