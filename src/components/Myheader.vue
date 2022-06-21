@@ -9,14 +9,14 @@
             <div class="row justify-content-between">
             <div class="col-5">
               <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                   <font-awesome-icon icon="fas fa-phone" />
                   <span>180009933489</span>
                 </div>
                 <div class="col-3 text-center">
                   <font-awesome-icon icon="fa-solid fa-envelope" />
                   <span>Contact Us</span></div>
-                <div class="col-3 text-center">
+                <div class="col-2 text-center">
                   <font-awesome-icon icon="fa-solid fa-graduation-cap" />
                   <span>Alunni</span>
                   </div>
@@ -56,11 +56,11 @@
               <div class="col-3">
                 <img src="../assets/university_logo.png" alt="">
               </div>
-              <nav class="col-9 align-self-center">
+              <nav class=" col-9 align-self-center">
                 <div class="row">
                   <ul class="col-12 d-flex">
                     <li v-for="(item,i) in linkHeader"
-                    class="text-center ms-5"
+                    class="text-end ms-5"
                     :key="i">
                       <a href="item.link"><strong>{{item.select}}</strong></a>
                       <span>{{item.status}}</span>
@@ -129,6 +129,7 @@ export default {
   .contact {
     height: 50px; 
     background-color: #ffab0b;
+    color: white;
     img{
       object-fit: contain;
       max-width: 40px;

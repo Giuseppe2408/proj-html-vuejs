@@ -1,113 +1,116 @@
 <template>
-  <footer id="img-footer" class="container-fluid">
-    <ul class="row">
-      <li v-for="(link, i) in linkFooter"
-      :key="i"
-      :class="link.subtitle !== '' ? 'col-3' : ''">
-        <h2>{{link.subtitle}}</h2>
-        <a href="">{{link.contact}}</a>
-      </li>
-    </ul> 
+  <footer id="img-footer" class="container-fluid">                     
+    <myFooterList
+    :linkFooter="linkFooter"
+    :key="i"/>
   </footer>
 </template>
 
 <script>
+import myFooterList from "./myFooterList";
 export default {
   name: 'MyFooter',
+  components : {
+    myFooterList
+  },
   data() {
     return{
       linkFooter : [
         {
+          class : 'col-2',
           subtitle : 'AVADA UNIVERSITY',
-          contact : 'Residential Location 9521 Broadsberry Avenue Paddington RC7 9ZA',
+          text : 'Residential Location 9521 Broadsberry Avenue Paddington RC7 9ZA', 
           icon : ''
         },
         {
-          contact : '1.800.458.556',
+          text : '1.800.458.556',
           icon : ''
         },
         {
-          contact : 'info@your-domain.com',
+          text : 'info@your-domain.com',
           icon : ''
         },
         {
-          contact : 'Monday – Friday: 8:00 AM – 10:00 PM',
+          text : 'Monday – Friday: 8:00 AM – 10:00 PM',
           icon : ''
         },
         {
+          class : 'col-2',
           subtitle : 'RECENT POSTS',
-          contact : 'What do successful grads think you should study?',
+          text : 'What do successful grads think you should study?',
           icon : ''
         },
         { 
-          contact : 'Former student discusses success in the fashion industry',
+          text : 'Former student discusses success in the fashion industry',
           icon : ''
         },
         {          
-          contact : 'How do you best prepare for university?',
+          text : 'How do you best prepare for university?',
           icon : ''
         },
         {
+          class : 'col-2',
           subtitle : 'Courses',
-          contact : 'Arts & Humanities'
+          text : 'Arts & Humanities'
         },
         {
-          contact : 'Buisness & Management'
+          text : 'Buisness & Management'
         },
         {
-          contact : 'Engineering & Technology'
+          text : 'Engineering & Technology'
         },
         {
-          contact : 'Life Science & Medicine'
+          text : 'Life Science & Medicine'
         },
         {
-          contact : 'Natural Scienses'
+          text : 'Natural Scienses'
         },
         {
           subtitle: 'ADMISSION',
-          contact : 'Elegibility'
+          text : 'Elegibility'
         },
         {
-          contact : 'Application'
+          text : 'Application'
         },
         {
-          contact : 'Review Process'
+          text : 'Review Process'
         },
         {
-          contact : 'How to Apply'
+          text : 'How to Apply'
         },
         {
+          class : 'col-2',
           subtitle: 'RESOURCES',
-          contact : 'Campus Directory'
+          text : 'Campus Directory'
         },
         {
-          contact : 'Academic Calendar'
+          text : 'Academic Calendar'
         },
         {
-          contact : 'Sports Club'
+          text : 'Sports Club'
         },
         {
-          contact : 'Graduate Programs'
+          text : 'Graduate Programs'
         },
         {
-          contact : 'Faculty & Staff'
+          text : 'Faculty & Staff'
         },
         {
 
           subtitle: 'QUICKLINKS',
-          contact : 'University Library'
+          text : 'University Library'
         },
         {
-          contact : 'Campus Service'
+          text : 'Campus Service'
         },
         {
-          contact : 'Careers'
+          text : 'Careers'
         },
 
 
       ]
     }
-  }
+  },
   
 }
 </script>
@@ -116,5 +119,7 @@ export default {
 <style scoped lang="scss">
   #img-footer{
     background-image: url(../assets/university_ft_bg.png );
+    
+  
   }
 </style>
