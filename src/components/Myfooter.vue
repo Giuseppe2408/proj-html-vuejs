@@ -3,6 +3,22 @@
     <myFooterList
     :linkFooter="linkFooter"
     :key="i"/>
+    <div class="row border-top">
+      <div class="col-12">
+        <div class="row justify-content-between">
+          <div class="col-5">
+            <span>© Copyright 2012 - 2022 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</span>
+          </div>
+          <div class="col-3 text-end">
+            <font-awesome-icon icon="fa-brands fa-facebook-f" />
+            <font-awesome-icon class="mx-2" icon="fa-brands fa-twitter" />
+            <font-awesome-icon class="me-2" icon="fa-brands fa-youtube" />
+            <font-awesome-icon icon="fa-brands fa-instagram" />
+          </div>
+        </div>
+      </div>
+      
+    </div>
   </footer>
 </template>
 
@@ -19,19 +35,19 @@ export default {
         {
           subtitle : 'AVADA UNIVERSITY',
           contact : 'Residential Location 9521 Broadsberry Avenue Paddington RC7 9ZA', 
-          icon : '<font-awesome-icon icon="fa-solid fa-house"/>'
+          icon : '<font-awesome-icon icon="fa-solid fa-house" />'
         },
         {
           contact : '1.800.458.556',
-          icon : '<font-awesome-icon icon="fas fa-phone"/>'
+          icon : '<font-awesome-icon icon="fas fa-phone" />'
         },
         {
           contact : 'info@your-domain.com',
-          icon : '<font-awesome-icon icon="fa-solid fa-envelope"/>'
-        },
+          icon : '<font-awesome-icon icon="fa-solid fa-envelope" />'
+        }, 
         {
           contact : 'Monday – Friday: 8:00 AM – 10:00 PM',
-          icon : '<font-awesome-icon icon="fa-solid fa-clock"/>'
+          icon : '<font-awesome-icon icon="fa-solid fa-clock" />'
         },
         {
           domandsubtitle : 'RECENT POSTS',
@@ -132,6 +148,9 @@ export default {
 <style scoped lang="scss">
   footer{
     background-image: url(../assets/university_ft_bg.png );
-    line-height: 40px;
+    line-height: 30px;
+    .border-top {
+      border-top: 1px solid lightgrey;
+    }
   }
 </style>
