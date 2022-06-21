@@ -24,7 +24,8 @@ export default {
     MyFooter,
     myJumbotron,
     myMainContent,
-  }
+  },
+ 
 }
 </script>
 
@@ -35,5 +36,12 @@ export default {
   box-sizing: border-box;
 }
 // importazione bootstrap
-
+ul li {
+    list-style: none;
+      a{
+        text-decoration: none;
+        color: black;
+      }
+    }
+  
 </style>

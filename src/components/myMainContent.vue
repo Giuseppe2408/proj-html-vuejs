@@ -4,6 +4,7 @@
         <whyStart/>
         <myCarousel/>
         <todayNews/>
+        <signIn/>
     </div>
 </template>
 
@@ -12,6 +13,7 @@ import myVideo from "./myVideo.vue";
 import myCarousel from "./myCarousel.vue";
 import whyStart from "./whyStart.vue";
 import todayNews from "./todayNews.vue";
+import signIn from "./signIn.vue";
 
 export default {
   name: 'myMainContent',
@@ -19,7 +21,8 @@ export default {
     myVideo,
     whyStart,
     myCarousel,
-    todayNews
+    todayNews,
+    signIn
   }
   
 }

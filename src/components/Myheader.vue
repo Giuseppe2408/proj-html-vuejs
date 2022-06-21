@@ -30,11 +30,17 @@
               <!-- icone social da mettere dopo con font awesome -->
               <div class="row">
                 <div class="col-3 text-center">
-                  <font-awesome-icon icon="fa-brands fa-facebook" />
+                  <img src="../assets/facebook-f-brands.svg" alt="">
                 </div>
-                <div class="col-3 text-center">insta</div>
-                <div class="col-3 text-center">twitter</div>
-                <div class="col-3 text-center">pinterest</div>
+                <div class="col-3 text-center">
+                  <img src="../assets/twitter-brands.svg" alt="">
+                </div>
+                <div class="col-3 text-center">
+                  <img src="../assets/instagram-brands.svg" alt="">
+                </div>
+                <div class="col-3 text-center">
+                  <img src="../assets/youtube-brands.svg" alt="">
+                </div>
               </div>
             </div>
           </div>
@@ -57,6 +63,7 @@
                     class="text-center ms-5"
                     :key="i">
                       <a href="item.link"><strong>{{item.select}}</strong></a>
+                      <span>{{item.status}}</span>
                     </li>
                   </ul>
                 </div>
@@ -110,7 +117,7 @@ export default {
           status : 'APPLY',
           link : '#'
         },
-      ]
+      ],
     }
   }
   
@@ -122,16 +129,15 @@ export default {
   .contact {
     height: 50px; 
     background-color: #ffab0b;
+    img{
+      object-fit: contain;
+      max-width: 40px;
+      max-height: 40px;
+      color: white;
+    }
   }
   .header-height{
     height: 100px;
-    nav ul li {
-    list-style: none;
-      a{
-        text-decoration: none;
-        color: black;
-      }
-    }
   }
   
 </style>
