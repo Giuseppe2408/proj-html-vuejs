@@ -5,7 +5,7 @@
           <li v-for="(item,i) in linkFooter" :key="i">
             <h2>{{item.subtitle}}</h2>
             <span>
-              {{item.contact}}
+              {{item.contact}} 
             </span>
           </li>
         </ul>
